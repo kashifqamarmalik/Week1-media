@@ -1,0 +1,184 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        main {
+            padding: 20px;
+            background-color: aqua;
+        }
+
+        .exampleone {
+            background-color: rgb(255, 240, 140);
+            width: fit-content;
+        }
+
+        .exampletwo {
+            background-color: rgb(74, 0, 0);
+            color: #FFFFFF;
+            width: fit-content;
+        }
+
+        .examplethree {
+            background-color: rgb(225, 153, 7);
+            color: #FFFFFF;
+            width: fit-content;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Week 1 Lesson</h1>
+    </header>
+
+    <main>
+
+
+        <h1>Topic 1/4: RGB-colors and -channels</h1>
+
+        <div class="exampleone">
+            R:255 G:240 B:140
+        </div>
+
+        <div class="exampletwo">
+            R:74 G:0 B:0
+        </div>
+
+        <div class="examplethree">
+            R:225 G:153 B:7
+        </div>
+
+        <h2>Color absent from the rings: Blue Color</h2>
+        <p>The rings are composed of red and yellow colors and the blue color is absent. When we only see blue color in
+            the image, we don't see the rings. </p>
+
+        <h1>Topic 2/4: Resolution and compression</h1>
+
+        <figure>
+            <h2>1. Original Image</h2>
+            <img src="./original.jpg" alt="Original image" width="400 px">
+            <figcaption> Width: 1400 Pixels
+                Height: 1870 Pixels
+                Size: 438 KBs
+                Image Quality: 80 = high quality
+            </figcaption>
+        </figure>
+
+        <figure>
+            <h2>2. Highly Compressed Image</h2>
+            <img src="./highly_compressed.jpg" alt="Highly compressed image" width="400 px">
+            <figcaption> Width: 1400 Pixels
+                Height: 1870 Pixels
+                Size: 94.1 KBs
+                Image Quality: 15 = highly compressed
+            </figcaption>
+        </figure>
+
+        
+        <figure>
+            <h2>3. Small Image</h2>
+            <img src="./small.jpg" alt="Small image" width="400 px">
+            <figcaption> Width: 100 Pixels
+                Height: 134 Pixels
+                Size: 13.9 KBs
+                Image Quality: 80 = high quality
+            </figcaption>
+        </figure>
+        
+        <h2>Discuss with your pair!</h2>
+
+        <p>1. What happends, if images on website or mobile app are too large (too much pixels)?</p>
+        <p>The app becomes slow and the image takes a lot of space. It is hard to use it in different user interfaces.</p>
+        <p>2. What if the images are too small (less pixels)?</p>
+        <p>These images can be used as thumbnails but it will be awkward to enlarge them and use them.The images become blurred if used enlarged.</p>
+        <p>3. What if the images are not compressed enough?</p>
+        <p>The image will slowdown the app and also may not fit in the screen.</p>
+        <p>4. What if the images are too much compressed?</p>
+        <p>It takes less space but the quality is low.</p>
+        <p>5. What could be a general rule for a good size and amount of compression of an image in a mobile app or on a website?</p>
+        <p>The best rule is to change the image according to the context and the need of the program</p>
+
+
+        <h1>Topic 3/4: Image editing</h1>
+        <figure>
+            <h2>Bird and Saturn</h2>
+            <img src="./merger.jpg" alt="Bird image" width="400 px">
+        </figure>
+
+        <figure>
+            <h2>Living room and saturn</h2>
+            <img src="./livng room.jpg" alt="living room" width="400 px">
+        </figure>
+
+        <figure>
+            <h2>Bedroom</h2>
+            <img src="./bedroom.jpg" alt="Bedroom" width="400 px">
+        </figure>
+
+        <h1>Topic 4/4: Transparency and file formats</h1>
+
+
+        <figure>
+            <h2> JPG</h2>
+            <img src="./fileformattest2.jpg" alt="JPG format" width="400 px">
+            <figcaption> File format: JPG
+                JPG is lossless format.Quality of the compressed image is not lost. 
+                It completely supports transparency.
+                JPG is best for media and web apps. 
+            </figcaption>
+        </figure>
+
+        <figure>
+            <h2>PNG</h2>
+            <img src="./fileformattest1.png" alt="PNG format" width="400 px">
+            <figcaption>
+                File Format: png
+         visual-quality: loss-less compression
+
+transparency-support: supports both half and full transparency
+
+file-size: 2.7 MB  file-format fits the best: Anything which has
+
+transparency unless you need animations.PNG is still well-suited to
+
+storing images during the editing process because of its lossless
+
+compression.//sth special about this file format: PNG excels when the
+
+image has large, uniformly colored areas//
+            </figcaption>
+        </figure>
+
+        <figure>
+            <h2>GIF</h2>
+            <img src="./fileformattest.gif" alt="GIF format" width="400 px">
+            <figcaption>
+                file format: .gif 
+                 visual-quality: it uses LZW lossless compression,
+
+which is more effective when large areas have a single color //
+
+transparency-support: supports full transparency //file-size: 818 KB
+
+//file-format fits the best: GIF is most suitable for storing graphics
+
+with few colors, simple animations //sth special about this file
+
+format: Animations. Due to GIF's simplicity and age, it achieved
+
+almost universal software support
+            </figcaption>
+        </figure>
+
+    </main>
+
+
+</body>
+
+</html>
